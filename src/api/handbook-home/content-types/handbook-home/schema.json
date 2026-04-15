@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "handbook_homes",
+  "info": {
+    "singularName": "handbook-home",
+    "pluralName": "handbook-homes",
+    "displayName": "Handbook Home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "callout_text": {
+      "type": "text",
+      "required": true
+    },
+    "meta_title": {
+      "type": "string",
+      "required": true
+    },
+    "meta_description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
